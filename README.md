@@ -1,13 +1,5 @@
 # INTERAZ DE DOBLE SEGURIDAD
-Este trabajo desarrolla una interfaz humano-máquina basado en una metodología de doble seguridad mediante el uso de señales electromiografícas (EMG) y voz.  -
-
-# Tecnologías utilizadas
-- Python 3
-- NumPy
-- PyQt5 (interfaz gráfica)
-- PyQtGraph (visualización en tiempo real)
-- SoundDevice (adquisición de audio)
-- PySerial (comunicación con hardware)
+Este trabajo desarrolla una interfaz humano-máquina basado en una metodología de doble seguridad mediante el uso de señales electromiografícas (EMG) y voz.  
 
 # Señales utilizadas
 ## 1. Señal EMG
@@ -38,8 +30,13 @@ En caso contrario, el sistema permanece bloqueado.
 - Micrófono funcional
 -Módulo EMG conectado por puerto serial
   
-# Instalación de dependencias
-pip install numpy pyqt5 pyqtgraph sounddevice pyserial
+# Librerias utilizadas
+- Python 3
+- NumPy
+- PyQt5 (interfaz gráfica)
+- PyQtGraph (visualización en tiempo real)
+- SoundDevice (adquisición de audio)
+- PySerial (comunicación con hardware)
 
 # Autor 
 Ammi Pahola Rodriguez Salgado 
